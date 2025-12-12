@@ -2,10 +2,9 @@
 
 [![Vapor](https://img.shields.io/badge/Vapor-333333?style=for-the-badge&logo=vapor)](https://vapor.codes/) 
 [![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift)](https://www.swift.org/)
-[![Database](https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/index.html)
+[![Storage](https://img.shields.io/badge/Storage-InMemory-ff69b4?style=for-the-badge&logo=github)](https://github.com/AlbertoOrrantia)
 
-Hello, I'm **Alberto Orrantia**, the lead developer for the **Suma Connect** integration service.
-
+Hello 👋, I'm **Alberto Orrantia**,
 This repository holds the **Vapor backend** for the service. It provides the RESTful API endpoints, business logic, and database persistence required by the iOS client. This is the **Minimum Viable Product (MVP)**, establishing the core architecture for future development.
 
 ---
@@ -16,6 +15,7 @@ This repository holds the **Vapor backend** for the service. It provides the RES
 * **Semantic Versioning (SemVer):** Follows the `MAJOR.MINOR.PATCH` convention for predictable releases.
 * **Clear Development Host:** Configured for seamless testing with physical iOS devices.
 * **Architecture:** Uses a clean, component-based structure (e.g., Controllers, Models, Repositories).
+* **In-Memory Storage:** Uses dictionaries for rapid prototyping and testing, simplifying the MVP setup.
 
 ## ⬇️ Installation and Setup
 
